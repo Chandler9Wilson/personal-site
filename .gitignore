@@ -1,0 +1,3 @@
+# Require a rebuild on new systems
+env/
+docs/build/
