@@ -3,10 +3,11 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to chandler9wilson.com's documentation!
+Welcome to Chandler's site documentation!
 ===============================================
 
 .. toctree::
    :maxdepth: 2
 
    layout
+   deploy
