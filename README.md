@@ -2,7 +2,7 @@
 
 My personal site which can be viewed at [chandler9wilson.com](http://chandler9wilson.com)
 
-# Getting Started
+## Getting Started
 
 * Setup the python virtual environment
   1. Run `$ sudo apt-get install python3-venv`
