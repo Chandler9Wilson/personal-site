@@ -19,5 +19,8 @@
   "homepage": "https://github.com/Chandler9Wilson/personal-site#readme",
   "devDependencies": {
     "browser-sync": "^2.23.7"
+  },
+  "dependencies": {
+    "bulma": "^0.7.1"
   }
 }
