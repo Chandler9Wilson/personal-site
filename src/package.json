@@ -1,0 +1,23 @@
+{
+  "name": "chandler9wilson.com",
+  "version": "1.0.0",
+  "description": "Chandler Wilsons Personal site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "browser-sync start --server --port 5600 --files ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chandler9Wilson/personal-site.git"
+  },
+  "author": "Chandler Wilson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Chandler9Wilson/personal-site/issues"
+  },
+  "homepage": "https://github.com/Chandler9Wilson/personal-site#readme",
+  "devDependencies": {
+    "browser-sync": "^2.23.7"
+  }
+}
