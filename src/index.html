@@ -9,12 +9,14 @@
   <link rel="icon" href="#">
   <title>Chandler Wilson</title>
 
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="node_modules/bulma/css/bulma.css">
   <link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 
-<body>
-  <section class="hero is-info">
+<!-- For info on why this class is need see https://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/ -->
+<body class="Site">
+  <section class="hero is-black">
     <div class="hero-body">
       <div class="container">
         <h1 class="title">
@@ -27,54 +29,81 @@
     </div>
   </section>
 
-  <div class="section-padding">
-    <div class="container box">
-      <article class="media">
-        <figure class="media-left">
-          <p class="image is-64x64">
-            <img src="https://bulma.io/images/placeholders/128x128.png">
-          </p>
-        </figure>
-        <div class="media-content">
-          <div class="content">
-            <p>
-              <strong>Predictive HVAC</strong>
-              <br>
-              I built a web interface for managing a theoretical IOT companies devices.
+  <!-- For info on why this class/section is need see https://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/ -->
+  <main class="Site-content">
+    <div class="section-padding">
+      <div class="container box">
+        <article class="media">
+          <figure class="media-left">
+            <p class="image is-64x64">
+              <img src="https://bulma.io/images/placeholders/128x128.png">
             </p>
+          </figure>
+          <div class="media-content">
+            <div class="content">
+              <p>
+                <strong>Predictive HVAC</strong>
+                <br>
+                I built a web interface for managing a theoretical IOT companies devices.
+              </p>
+            </div>
+            <nav class="buttons is-right">
+              <a class="button is-dark" href="https://github.com/Chandler9Wilson/dealer-portal">Source</a>
+              <a class="button is-dark" href="https://dealer-portal.chandler9wilson.com">Preview</a>
+            </nav>
           </div>
-          <nav class="buttons is-right">
-            <a class="button is-dark" href="https://github.com/Chandler9Wilson/dealer-portal">Source</a>
-            <a class="button is-dark" href="https://dealer-portal.chandler9wilson.com">Preview</a>
-          </nav>
-        </div>
-      </article>
+        </article>
+      </div>
     </div>
-  </div>
 
-  <div class="section-padding">
-    <div class="container box">
-      <article class="media">
-        <figure class="media-left">
-          <p class="image is-64x64">
-            <img src="https://bulma.io/images/placeholders/128x128.png">
-          </p>
-        </figure>
-        <div class="media-content">
-          <div class="content">
-            <p>
-              <strong>Neighborhood Map</strong>
-              <br>
-              I built a web interface for viewing items around a neighborhood.
+    <div class="section-padding">
+      <div class="container box">
+        <article class="media">
+          <figure class="media-left">
+            <p class="image is-64x64">
+              <img src="https://bulma.io/images/placeholders/128x128.png">
             </p>
+          </figure>
+          <div class="media-content">
+            <div class="content">
+              <p>
+                <strong>Neighborhood Map</strong>
+                <br>
+                I built a web interface for viewing items around a neighborhood.
+              </p>
+            </div>
+            <nav class="buttons is-right">
+              <a class="button is-dark" href="https://github.com/Chandler9Wilson/neighborhood-map-project">Source</a>
+              <a class="button is-dark" href="https://neighborhood-map.chandler9wilson.com">Preview</a>
+            </nav>
           </div>
-          <nav class="buttons is-right">
-            <a class="button is-dark" href="https://github.com/Chandler9Wilson/neighborhood-map-project">Source</a>
-            <a class="button is-dark" href="https://neighborhood-map.chandler9wilson.com">Preview</a>
-          </nav>
-        </div>
-      </article>
+        </article>
+      </div>
     </div>
-  </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="content has-text-centered">
+        <p class="buttons is-centered">
+          <a class="button is-medium" href="https://github.com/Chandler9Wilson">
+            <span class="icon">
+              <i class="fab fa-github"></i>
+            </span>
+            <span>Github</span>
+          </a>
+          <a class="button is-medium" href="https://www.linkedin.com/in/chandler9wilson/">
+            <span class="icon">
+              <i class="fab fa-linkedin"></i>
+            </span>
+            <span>LinkedIn</span>
+          </a>
+        </p>
+        <p>
+          The <a href="https://github.com/Chandler9Wilson/personal-site">source code</a> is licensed <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content is Copyright 2018, Chandler Wilson.
+        </p>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
