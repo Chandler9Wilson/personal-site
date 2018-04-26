@@ -14,3 +14,6 @@ My personal site which can be viewed at [chandler9wilson.com](http://chandler9wi
 * Run the Dev server with live reload
   1. `$ cd src`
   2. `$ npm run watch`
+* View the docs
+  1. `$ cd docs`
+  2. `$ sphinx-autobuild source build/html -p 5000`
