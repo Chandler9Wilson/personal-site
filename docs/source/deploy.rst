@@ -1,6 +1,21 @@
 Deploying the Project
 =====================
 
+Where things are found
+----------------------
+
+* Most Static Files/Projects can be found under ``/var/www/``
+* Dealer Portal is normally under the user who deployed it e.g. ``/home/chandler/dealer-portal``
+* Per Site nginx config is under ``/etc/nginx/site-available``
+
+Updating Content
+----------------
+
+From the project root that you would like to update
+
+1. Run ``$ git pull``
+2. ``$ sudo systemctl restart nginx``
+
 Guides Used
 -----------
 
