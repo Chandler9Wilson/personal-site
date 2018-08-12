@@ -6,7 +6,7 @@ Where things are found
 
 * Most Static Files/Projects can be found under ``/var/www/``
 * Dealer Portal is normally under the user who deployed it e.g. ``/home/chandler/dealer-portal``
-* Per Site nginx config is under ``/etc/nginx/site-available``
+* Per Site nginx config is under ``/etc/nginx/sites-available``
 
 Updating Content
 ----------------
